@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@400;700&family=Ubuntu:wght@400&display=swap');
+
+:root {
+  --nav-bar: #3a5afd;
+  --green: #01c77e;
+  --yellow: #fb9d0b;
+  --red: #f60202;
+  --font-color: #021328;
+  --background-color: #ecf1f8;
+  --second-background-color: #d5e0ef;
+  --nav-cards: #f4f8fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  color: var(--font-color);
+  animation: 1s init;
+  -webkit-animation: 1s init;
+}
+
+@keyframes init {
+  0% {
+      opacity: 0;
+  }   
+
+  100% {
+      opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  font: 400 18px Ubuntu, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
